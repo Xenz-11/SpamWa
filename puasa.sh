@@ -30,7 +30,7 @@ echo -e $km" Github      : https://github.com/Xenz-11"
 echo -e $km" Facebook    : Xenz Why                  "
 
 #================================#
-cd.module
+cd module
 php spam.php
 #===============================#
 #                               #
