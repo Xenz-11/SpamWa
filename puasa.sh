@@ -35,3 +35,16 @@ php spam.php
 #===============================#
 #                               #
 #################################
+
+read -p "Mau Lagi (y/n)" spam
+
+if [ $spam == y ]
+then
+bash spam.sh
+fi
+if [ $spam == n ]
+then
+exit
+else
+echo "Pilih Yang Bener Tai"
+fi
