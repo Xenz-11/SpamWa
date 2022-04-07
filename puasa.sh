@@ -40,6 +40,9 @@ read -p "Mau Lagi (y/n)" spam
 
 if [ $spam == y ]
 then
+git clone https://github.com/Xenz-11/SpamWa
+cd SpamWa
+git pull
 bash spam.sh
 fi
 if [ $spam == n ]
